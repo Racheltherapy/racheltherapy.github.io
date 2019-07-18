@@ -1,0 +1,8 @@
+@mixin body-font() {
+  font-family: 'Roboto Slab';
+}
+
+@mixin heading-font() {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
