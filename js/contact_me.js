@@ -19,7 +19,7 @@ $(function() {
       }
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
-      window.open('mailto:jeffjcardinal@gmail.com?subject=' + subject + '&body=' body);
+      window.open('mailto:jeffjcardinal@gmail.com?subject=' + subject + '&body=' + body);
       // $.ajax({
       //   url: "././mail/contact_me.php",
       //   type: "POST",
